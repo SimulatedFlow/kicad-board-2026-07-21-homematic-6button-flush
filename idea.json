@@ -1,0 +1,11 @@
+{
+  "board_name": "Homematic-6Button-Flush",
+  "one_liner": "Unterputz-Tastermodul (Ø55mm) mit 6 Tastern (3 links/3 rechts) für Homematic — bestückbar als 868-MHz-Funk (CC1101) ODER Homematic IP Wired (RS485-Bus).",
+  "market_gap": "Homematic-Wandtaster sind teuer und geschlossen. Ein offenes, handlötbares 55mm-UP-Modul mit 6 frei belegbaren Tastern, das wahlweise per 868-MHz-Funk (BidCoS/HmIP-kompatibler CC1101) oder über den Homematic IP Wired RS485-Bus arbeitet, gibt es als DIY-Board nicht. Passt hinter Standard-55er-Schalterrahmen (Gira/Busch/JUNG-kompatibel).",
+  "confidence": "medium",
+  "price_eur": 22,
+  "target_enclosure": "Standard-Unterputzdose Ø60mm; Platine rund Ø49-50mm, hinter 55er-Wippen-/Tasterrahmen; Bestück-Tiefe UP-tauglich (<24mm inkl. Funkmodul auf Rückseite)",
+  "injection_notes": "keine",
+  "variants": ["FUNK: CC1101 868MHz auf Rückseite", "WIRED: MAX485-Transceiver für Homematic IP Wired Bus"],
+  "status": "idee/spec — noch nicht gebaut; MCU-Wahl + Antenne + UP-Stromversorgung offen (siehe SPEC.md)"
+}
