@@ -1,0 +1,211 @@
+(session "Homematic-6Button-Flush"
+  (base_design "Homematic-6Button-Flush")
+  (placement
+    (resolution um 10)
+    (component LED_SMD:LED_0805_2012Metric
+      (place LED1 0 -90000 front 0)
+    )
+    (component "Button_Switch_SMD:SW_SPST_B3U-1000P"
+      (place SW4 140000 -130000 front 90)
+      (place SW1 -140000 -130000 front 90)
+      (place SW5 140000 0 front 90)
+      (place SW3 -140000 130000 front 90)
+    )
+    (component "Button_Switch_SMD:SW_SPST_B3U-1000P::1"
+      (place SW2 -140000 0 front 0)
+      (place SW6 140000 130000 front 0)
+    )
+    (component MountingHole:MountingHole_2.2mm
+      (place MH1 -220000 0 front 0)
+      (place MH2 220000 0 front 0)
+    )
+    (component Capacitor_SMD:C_0603_1608Metric
+      (place C1 60000 -60000 back 270)
+      (place C2 -60000 -60000 back 270)
+    )
+    (component Battery:BatteryHolder_Keystone_3002_1x2032
+      (place BT1 0 110000 back 180)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
+      (place J_SWD -180000 35000 back 180)
+    )
+    (component "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+      (place U1 0 -60000 back 0)
+    )
+    (component Resistor_SMD:R_0603_1608Metric
+      (place R_LED 90000 -110000 back 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical
+      (place J_RF 90000 -140000 back 270)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric
+      (place C3 120000 -30000 back 0)
+    )
+    (component TestPoint:TestPoint_Pad_D2.0mm
+      (place ANT 0 -210000 back 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version 10.0.4)
+    )
+    (library_out 
+      (padstack "Via[0-3]_600:300_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle In1.Cu 6000 0 0)
+        )
+        (shape
+          (circle In2.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-3]_400:200_um"
+        (shape
+          (circle F.Cu 4000 0 0)
+        )
+        (shape
+          (circle In1.Cu 4000 0 0)
+        )
+        (shape
+          (circle In2.Cu 4000 0 0)
+        )
+        (shape
+          (circle B.Cu 4000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-3]_500:250_um"
+        (shape
+          (circle F.Cu 5000 0 0)
+        )
+        (shape
+          (circle In1.Cu 5000 0 0)
+        )
+        (shape
+          (circle In2.Cu 5000 0 0)
+        )
+        (shape
+          (circle B.Cu 5000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-3]_600:300_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle In1.Cu 6000 0 0)
+        )
+        (shape
+          (circle In2.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net GND
+        (wire
+          (path F.Cu 4000
+            160000 125000
+            157000 128000
+            157000 130000
+          )
+        )
+        (via "Via[0-3]_500:250_um" 110500 -30000
+          (type protect)
+        )
+        (via "Via[0-3]_500:250_um" -9375 -90000
+          (type protect)
+        )
+        (via "Via[0-3]_500:250_um" 0 110000
+          (type protect)
+        )
+        (via "Via[0-3]_400:200_um" -140000 -113000
+          (type protect)
+        )
+        (via "Via[0-3]_500:250_um" -123000 0
+          (type protect)
+        )
+        (via "Via[0-3]_400:200_um" -140000 147000
+          (type protect)
+        )
+        (via "Via[0-3]_500:250_um" -60000 -52250
+          (type protect)
+        )
+        (via "Via[0-3]_500:250_um" 140000 17000
+          (type protect)
+        )
+        (via "Via[0-3]_600:300_um" 160000 125000
+          (type protect)
+        )
+        (via "Via[0-3]_500:250_um" 140000 -113000
+          (type protect)
+        )
+        (via "Via[0-3]_400:200_um" 60000 -52250
+          (type protect)
+        )
+        (via "Via[0-3]_400:200_um" 28625 -56750
+          (type protect)
+        )
+      )
+      (net +3V0
+        (via "Via[0-3]_500:250_um" 128000 110000
+          (type protect)
+        )
+        (via "Via[0-3]_500:250_um" -60000 -67750
+          (type protect)
+        )
+        (via "Via[0-3]_500:250_um" 129500 -30000
+          (type protect)
+        )
+        (via "Via[0-3]_400:200_um" 60000 -67750
+          (type protect)
+        )
+        (via "Via[0-3]_400:200_um" 28625 -50250
+          (type protect)
+        )
+      )
+      (net LED_A
+        (wire
+          (path F.Cu 4000
+            9647 -106429
+          )
+        )
+        (wire
+          (path B.Cu 4000
+            9647 -106429
+          )
+        )
+        (wire
+          (path F.Cu 4000
+            9647 -106429
+            9375 -106157
+            9375 -90000
+          )
+        )
+        (via "Via[0-3]_600:300_um" 9647 -106429
+        )
+        (wire
+          (path B.Cu 4000
+            81750 -110000
+            13218 -110000
+            9647 -106429
+          )
+        )
+      )
+    )
+  )
+)
