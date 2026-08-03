@@ -6,7 +6,11 @@
 This repository contains the **full design files** of a commercial hardware board. It is **source-available, not open source**: read it, evaluate it, then buy a license to use it. See **LICENSE.md (source-available, purchase required)**.
 
 **Get it / Buy:**
-- Listing folgt — Kontakt: simulatedflow@gmail.com
+- **Order on eBay** (this board, bare PCB): https://www.ebay.de/itm/398220349166
+- eBay store — all our boards and PCB art: https://www.ebay.de/usr/simula-9
+- Merch shop (dev & gaming): https://simulatedflow.myspreadshop.de
+- Merch shop (Synthetica / EDM): https://synthetica.myspreadshop.de
+- Direct / invoice (Simulated Flow UG): simulatedflow@gmail.com
 
 ### 📬 **Free Board Documentation & Firmware Pack**
 

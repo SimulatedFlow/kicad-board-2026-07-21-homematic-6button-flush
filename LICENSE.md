@@ -14,6 +14,10 @@ Modelled on the Fab license approach — **use requires purchase**:
   manufacturing license through an official store listing.
 
 **Bestellen / Order:**
-- Listing folgt — Kontakt: simulatedflow@gmail.com
+- **Order on eBay** (this board, bare PCB): https://www.ebay.de/itm/398220349166
+- eBay store — all our boards and PCB art: https://www.ebay.de/usr/simula-9
+- Merch shop (dev & gaming): https://simulatedflow.myspreadshop.de
+- Merch shop (Synthetica / EDM): https://synthetica.myspreadshop.de
+- Direct / invoice (Simulated Flow UG): simulatedflow@gmail.com
 
 © 2026 Simulated Flow UG. All rights reserved.
