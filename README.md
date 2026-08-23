@@ -7,6 +7,7 @@ This repository contains the **full design files** of a commercial hardware boar
 
 **Get it / Buy:**
 - **Order on eBay** (this board, bare PCB): https://www.ebay.de/itm/398220349166
+- Product page (specs, photos, price): https://simulatedflow.teufel-engineering.com/platinen/2026-07-21-homematic-6button-flush/
 - eBay store — all our boards and PCB art: https://www.ebay.de/usr/simula-9
 - Merch shop (dev & gaming): https://simulatedflow.myspreadshop.de
 - Merch shop (Synthetica / EDM): https://synthetica.myspreadshop.de
